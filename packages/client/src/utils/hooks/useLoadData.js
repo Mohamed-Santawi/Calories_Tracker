@@ -35,7 +35,7 @@ export function useLoadData(apiURL, dataType = "multiple") {
   }
   useEffect(() => {
     loadRecords();
-  }, []);
+  }, [apiURL]);
   return [
     dataType === "single" ? records[0] : records,
     loading,
