@@ -1,0 +1,25 @@
+.record {
+  border-radius: 3px;
+  list-style: none;
+  display: flex;
+  color: var(--theme-color-dark);
+  font-size: 1.2rem;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  margin-top: 10px;
+}
+
+.record-calories {
+  color: var(--theme-color-dark);
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .record {
+    font-size: 1rem;
+  }
+}

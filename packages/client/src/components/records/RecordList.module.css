@@ -1,0 +1,40 @@
+.list {
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 0;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.listItem:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.placeholder {
+  width: 80%;
+  height: 100px;
+  margin: 20px auto 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--theme-color-normal);
+  border-radius: 15px;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.totalCalories {
+  color: #333;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 15px 0 30px 70px;
+  display: block;
+}
+@media (max-width:768px) {
+  .list {
+    width: 90%;
+    padding: 0 10px 10px;
+    margin-bottom: 20px;
+  }
+}

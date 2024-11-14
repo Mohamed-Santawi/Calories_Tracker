@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --theme-background-normal: #a0d2eb;
+  --theme-background-ultra-light: #effaff;
+  --theme-background-light: #e5eaf5;
+  --theme-color-light: #d0bdf4;
+  --theme-color-normal: #8458b3;
+  --theme-color-dark: #495d5f;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 20px;
+  height: 100vh;
+}
+.App {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .App {
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .App h1 {
+    font-size: 1.3rem;
+  }
+}

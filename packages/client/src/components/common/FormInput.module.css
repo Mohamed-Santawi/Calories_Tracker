@@ -1,0 +1,26 @@
+.form-input {
+  width: 90%;
+  min-width: 255px;
+  color: #fff;
+  background-color: var(--theme-color-dark);
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+.error {
+  background-color: white;
+  color: maroon;
+  border: 2px solid maroon;
+}
+label {
+  width: 100%;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}

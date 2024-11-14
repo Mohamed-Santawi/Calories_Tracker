@@ -1,0 +1,49 @@
+.button {
+  border: none;
+  background-color: var(--theme-background-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+  width: 100%;
+  font-size: 1.1rem;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.title {
+  margin: 20px auto;
+  color: #333;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+.label-listing {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+  margin-right: 1rem;
+
+}
+.input-listing {
+  background-color: var(--theme-background-light);
+  border: none;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.list-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+}

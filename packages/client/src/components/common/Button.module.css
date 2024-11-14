@@ -1,0 +1,33 @@
+.primary {
+  display: block;
+  width: 170px;
+  color: var(--theme-background-ultra-light);
+  border: 3px solid #023b59;
+  background-color: #023b59;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin: 20px 0;
+}
+button:disabled {
+  background-color: lightgray;
+  color: gray;
+  border-width: 0;
+  pointer-events: none;
+}
+.secondry {
+  display: block;
+  width: 170px;
+  color: var(--theme-background-ultra-light);
+  border: 2px solid maroon;
+  color: maroon;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin: 20px 0 20px 40px;
+}
+a {
+  text-decoration: none;
+}

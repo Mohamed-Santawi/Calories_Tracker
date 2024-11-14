@@ -1,0 +1,27 @@
+
+.record-date-month {
+  color: darkred;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.record-date-day {
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.record-date-year {
+  color: #666;
+  font-weight: bold;
+  font-size: 1rem;
+}
+@media (max-width:768px) {
+  .record-date-month {
+    font-size: 0.8rem;
+  }
+  .record-date-day {
+    font-size: 1rem;
+  }
+  .record-date-year {
+    font-size: 0.8rem;
+  }
+}
